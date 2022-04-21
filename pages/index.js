@@ -8,7 +8,10 @@ export default function Home() {
     <div className="w-screen h-screen flex flex-col">
       <Head>
         <title>Rocket Propulsion Laboratory</title>
-        <meta name="description" content="UCSD's Premiere Aerospace Club" />
+        <meta
+          name="description"
+          content="UCSD's Rocket Propulsion Laboratory"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="absolute z-10 w-screen h-auto mt-4 h-20 flex flex-row items-center">
