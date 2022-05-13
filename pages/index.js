@@ -61,11 +61,11 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className="w-screen h-auto min-h-screen flex flex-row items-center  bg-cover bg-[url('https://i.imgur.com/cEQCLjQ.png')]">
+      <div className="w-screen h-auto min-h-screen flex flex-row items-center  bg-cover bg-[url('https://i.imgur.com/N3HaTw3.jpg')]">
         <div className="z-10 ml-14 w-2/5 ">
-          <h1 className="text-white uppercase text-xl font-light">Teams</h1>
+          <h1 className="text-white uppercase text-xl font-light">Outreach</h1>
           <h1 className="text-white uppercase text-4xl font-medium">
-            Meet the teams behind rpl
+            Check Out Events we featured at
           </h1>
           <Link
             href="/"
