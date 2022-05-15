@@ -4,7 +4,7 @@ import Header from "../components/header";
 import Event from "../components/event";
 export default function phoenix() {
   return (
-    <div className="w-screen h-fullflex flex-col bg-[#14110F]">
+    <div className="w-screen h-fullflex flex-col bg-white">
       <Head>
         <title>Rocket Propulsion Laboratory</title>
         <meta name="description" content="UCSD's Premiere Aerospace Club" />
@@ -20,18 +20,18 @@ export default function phoenix() {
         <h1 className="text-white uppercase text-4xl font-light text-center mt-5">
           Our Goal
         </h1>
-        <div className="z-10 w-4/5 p-3 ">
-          <h1 className="text-white uppercase text-xl font-extralight text-center">
+        <div className="z-10 w-4/5 p-3 mb-5">
+          <h1 className="text-white text-xl font-extralight text-center">
             Rocket Propulsion Laboratory is dedicated to UCSD and the larger
             community of San Diego. We are always looking for opportunities to
             work together and share in our knowledge of rocketry, inspiring
             people of all ages to look at science and space in a new way.
           </h1>
         </div>
-        <h1 className="mt-10 text-white uppercase text-3xl font-light text-center">
-          Previous events
-        </h1>
       </div>
+      <h1 className="my-10 text-black uppercase text-4xl font-bold text-center">
+        Previous events
+      </h1>
       <Event />
     </div>
   );
