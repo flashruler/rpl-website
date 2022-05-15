@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+import Header from "../components/header.js"
 
 export default function Home() {
   return (
@@ -14,23 +15,8 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="absolute z-10 w-screen h-auto mt-4 h-20 flex flex-row items-center">
-        <img src="/rpl_logo.png" className=" ml-14 mr-8 w-36 h-auto"></img>
-        <Link href="/phoenix">
-          <h1 className="mx-3 font-medium text-sm text-white cursor-pointer">
-            PHOENIX
-          </h1>
-        </Link>
-
-        <h1 className="mx-3 font-medium text-sm text-white">
-          NEW MEMBER PROJECT
-        </h1>
-        <h1 className="mx-3 font-medium text-sm text-white">TEAMS</h1>
-        <h1 className="mx-3 font-medium text-sm text-white">PAST PROJECTS</h1>
-        <h1 className="mx-3 font-medium text-sm text-white">ALUMNI</h1>
-        <h1 className="mx-3 font-medium text-sm text-white">SPONSORS</h1>
-      </div>
-      <div className="w-screen h-full min-h-screen flex flex-row items-center  bg-cover bg-[url('https://i.imgur.com/5zvTqJ4.jpg')]">
+      <Header/>
+      <div className="w-screen h-full min-h-screen flex flex-row items-center  bg-cover bg-[url('https://cdn.discordapp.com/attachments/904136026329612298/974879342402347028/unknown.png')]">
         <div className=" z-10 ml-14 w-2/6 ">
           <h1 className="text-white uppercase text-4xl font-medium">
             Learn About RPL and What We Do
@@ -68,7 +54,7 @@ export default function Home() {
             Check Out Events we featured at
           </h1>
           <Link
-            href="/"
+            href="/outreach"
             className=" my-5 w-36 h-14 outline outline-offset-2 outline-1 text-white uppercase"
           >
             <button className=" my-5 w-36 h-14 outline outline-offset-2 outline-1 text-white uppercase">
