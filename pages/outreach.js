@@ -17,7 +17,7 @@ export default function phoenix() {
         </h1>
       </div>
       <div className="w-screen flex flex-col items-center  bg-cover bg-black">
-        <h1 className="text-white uppercase text-4xl font-light text-center mt-5">
+        <h1 className="text-white uppercase text-4xl font-bold text-center mt-5">
           Our Goal
         </h1>
         <div className="z-10 w-4/5 p-3 mb-5">
