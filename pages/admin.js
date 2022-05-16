@@ -32,7 +32,7 @@ export default function Admin() {
       </h1>
       <div className=" max-h-max grid grid-cols-2 bg-white p-3">
         <div className="grid grid-cols-2 h-2/4">
-          <img src="bora2.jpg" className="w-full h-auto rounded-lg" />
+          <img src="Bora2.jpg" className="w-full h-auto rounded-lg" />
           <div className="p-3">
             <h1 className="text-3xl font-bold text-center uppercase my-5">
               Bora Gursel
@@ -142,7 +142,7 @@ export default function Admin() {
           </div>
         </div>
         <div className="grid grid-cols-2 h-2/4 mt-8">
-          <img src="jay2.jpg" className="w-full h-auto rounded-lg" />
+          <img src="Jay2.jpg" className="w-full h-auto rounded-lg" />
           <div className="p-3">
             <h1 className="text-3xl font-bold text-center uppercase my-5">
               Jay Buensuceso
