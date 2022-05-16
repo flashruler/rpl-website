@@ -67,7 +67,7 @@ export default function Admin() {
                   Blake Anderson
                 </h1>
                 <h1 className="text-2xl font-light text-center uppercase my-5">
-                  VP Chad
+                  VP Safety
                 </h1>
                 <h1 className="text-xl font-extralight  text-center ">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
