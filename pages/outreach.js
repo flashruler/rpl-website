@@ -14,7 +14,7 @@ export default function phoenix() {
       <Header />
       <div className="w-screen h-auto min-h-screen flex flex-row items-center justify-center bg-cover bg-[url('https://i.imgur.com/N3HaTw3.jpg')]">
         <Fade top opposite={true}>
-          <h1 className="text-white text-7xl text-center font-bold uppercase">
+          <h1 className="z-10 blur-none text-white text-7xl text-center font-bold uppercase">
             Outreach
           </h1>
         </Fade>
