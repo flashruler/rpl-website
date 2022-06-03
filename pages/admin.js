@@ -12,9 +12,11 @@ export default function Admin() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <div className="w-screen h-auto min-h-screen flex flex-row items-center justify-center bg-cover bg-[url('/Admin.jpg')]">
-        {/* <img src="/Admin.jpg" className="h-screen w-auto" /> */}
-      </div>
+      <Fade>
+        <div className="w-screen h-auto min-h-screen flex flex-row items-center justify-center bg-cover bg-[url('/Admin.jpg')]">
+          {/* <img src="/Admin.jpg" className="h-screen w-auto" /> */}
+        </div>
+      </Fade>
       <div className="w-screen flex flex-col items-center  bg-cover bg-black">
         <h1 className="text-white uppercase text-4xl font-bold text-center mt-5">
           The Administrative Team
@@ -64,7 +66,7 @@ export default function Admin() {
             <Fade top>
               <div className="p-3">
                 <h1 className="text-3xl font-bold text-center uppercase my-5">
-                  Blake Anderson
+                  Blake Andersen
                 </h1>
                 <h1 className="text-2xl font-light text-center uppercase my-5">
                   VP Safety
