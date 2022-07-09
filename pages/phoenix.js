@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 import Subteam from "../components/subteam"
 import React, {useState, useEffect } from "react";
 export default function phoenix() {
-  const [strMin,setStrMin] = useState(true);
+  // const [strMin,setStrMin] = useState(true);
   return (
     <div className="w-screen h-full flex flex-col bg-[#14110F]">
       <Head>
@@ -70,13 +70,7 @@ export default function phoenix() {
           <h1 className="text-white text-3xl font-light">Structures</h1>
           <h1 className="text-white text-xl font-thin">Help. We have no idea what we are doing. We feel like we are trapped in Zach's D&D RPL campaign. Save us.</h1>
 
-              <button className=" my-5 w-36 h-14 outline outline-offset-2 outline-1 text-white uppercase" onClick={() => {
-                if (!strMin) {
-                  setStrMin(true);
-                } else if (strMin) {
-                  setStrMin(false);
-                }
-              }}>
+              <button className=" my-5 w-36 h-14 outline outline-offset-2 outline-1 text-white uppercase" >
                 Learn More
               </button>
               {/* {!strMin && <Subteam/>} */}
