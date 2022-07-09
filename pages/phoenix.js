@@ -66,7 +66,7 @@ export default function phoenix() {
         </div>
         <div className="flex flex-col items-center w-3/4 my-72">
           <h1 className="text-white text-3xl font-light">Structures</h1>
-          <h1 className="text-white text-xl font-thin">Hel. We have no idea what we are doing. We feel like we are trapped in Zachs D&D RPL campaign. Save us.</h1>
+          <h1 className="text-white text-xl font-thin">Help. We have no idea what we are doing. We feel like we are trapped in Zachs D&D RPL campaign. Save us.</h1>
 
           <Link
               href="/phoenix"
