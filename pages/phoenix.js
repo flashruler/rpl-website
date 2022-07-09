@@ -2,10 +2,8 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "../components/header";
 import Fade from "react-reveal/Fade";
-import Subteam from "../components/subteam"
-import React, {useState, useEffect } from "react";
+
 export default function phoenix() {
-  // const [strMin,setStrMin] = useState(true);
   return (
     <div className="w-screen h-full flex flex-col bg-[#14110F]">
       <Head>
@@ -73,7 +71,6 @@ export default function phoenix() {
               <button className=" my-5 w-36 h-14 outline outline-offset-2 outline-1 text-white uppercase" >
                 Learn More
               </button>
-              {/* {!strMin && <Subteam/>} */}
         </div>
         <div className="flex flex-col items-center w-3/4 my-72">
           <h1 className="text-white text-3xl font-light">Plumbing</h1>
