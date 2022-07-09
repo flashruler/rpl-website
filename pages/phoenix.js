@@ -2,7 +2,10 @@ import Head from "next/head";
 import Link from "next/link";
 import Header from "../components/header";
 import Fade from "react-reveal/Fade";
+import Subteam from "../components/subteam"
+import React, {useState, useEffect } from "react";
 export default function phoenix() {
+  const [strMin,setStrMin] = useState(true);
   return (
     <div className="w-screen h-full flex flex-col bg-[#14110F]">
       <Head>
@@ -17,55 +20,103 @@ export default function phoenix() {
             <h1 className="text-white uppercase text-7xl font-medium">
               Phoenix
             </h1>
-            <h1 className="text-white uppercase text-lg font-light">
+            <h1 className=" text-white uppercase text-lg font-light">
               Liquid Bi-propellant Rocket designed to compete in the FAR-Mars
               competition
             </h1>
           </Fade>
         </div>
       </Fade>
-      <div className="w-screen h-full flex flex-col items-center bg-black">
-        <h1 className="text-white text-4xl font-light my-10 uppercase text-center">
-          Meet Phoenix
-        </h1>
-        <div className="h-1/4 w-auto flex flex-row justify-center mb-10">
-          <h1 className="w-2/4 text-white text-xl text-center font-extralight ">
-            The Phoenix rocket is designed to compete in the FAR-Mars
-            competition. The goal of the rocket is to reach as close to 45,000
-            feet as possible but must be within the bounds of 30,000-50,000
-            feet. The rockets will be fueled by Liquid Natural Gas (LNG) and
-            Liquid Oxygen (LOX). The total length of the rocket is 157.4 in and
-            the outer diameter is 8.675 in.
-          </h1>
+      <div className="w-screen h-full bg-black grid grid-cols-2">
+        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center w-3/4 mt-10 mb-30">
+          <h1 className="text-white text-3xl font-light">Phoenix</h1>
+          <h1 className="text-white text-xl font-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+           ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
         </div>
-        <div>
-          <h1 className="text-white text-4xl font-light my-10 uppercase text-center">
-            Composite Skin
-          </h1>
-          <div className="h-1/4 w-auto flex flex-row justify-center">
-            <h1 className="w-2/4 text-white text-xl text-center font-extralight ">
-              Our rocket utilizes a composite skin meticulously designed to
-              withstand the forces during launch. It is the first time RPL has
-              layed-up a composite skin section in house.
-            </h1>
-          </div>
+          <div className="flex flex-col items-center w-3/4 mt-96 mb-72">
+          <h1 className="text-white text-3xl font-light">Recovery</h1>
+          <h1 className="text-white text-xl font-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+           ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+           <Link
+              href="/phoenix"
+              className=" my-5 w-36 h-14 outline outline-offset-2 outline-1 text-white uppercase"
+            >
+              <button className=" my-5 w-36 h-14 outline outline-offset-2 outline-1 text-white uppercase">
+                Learn More
+              </button>
+            </Link>
         </div>
-        <div className="my-10">
-          <h1 className="text-white text-4xl font-light my-10 uppercase text-center">
-            Injector
-          </h1>
-          <div className="h-1/4 w-auto flex flex-row justify-center">
-            <h1 className="w-2/4 text-white text-xl text-center font-extralight ">
-              Our rocket utilizes a composite skin meticulously designed to
-              withstand the forces during launch. It is the first time RPL has
-              layed-up a composite skin section in house.
-            </h1>
-            <img
-              className="w-2/5 h-full"
-              src="https://images.squarespace-cdn.com/content/v1/5a0e8f206957daab5b003d09/1632342895128-M77VH8PV76RL2ZD20BNN/Inejector.PNG?format=1500w"
-            />
-          </div>
+        <div className="flex flex-col items-center w-3/4 my-72">
+          <h1 className="text-white text-3xl font-light">Avionics</h1>
+          <h1 className="text-white text-xl font-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+           ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+           <Link
+              href="/phoenix"
+              className=" my-5 w-36 h-14 outline outline-offset-2 outline-1 text-white uppercase"
+            >
+              <button className=" my-5 w-36 h-14 outline outline-offset-2 outline-1 text-white uppercase">
+                Learn More
+              </button>
+            </Link>
         </div>
+        <div className="flex flex-col items-center w-3/4 my-72">
+          <h1 className="text-white text-3xl font-light">Structures</h1>
+          <h1 className="text-white text-xl font-thin">Help. We have no idea what we are doing. We feel like we are trapped in Zach's D&D RPL campaign. Save us.</h1>
+
+              <button className=" my-5 w-36 h-14 outline outline-offset-2 outline-1 text-white uppercase" onClick={() => {
+                if (!strMin) {
+                  setStrMin(true);
+                } else if (strMin) {
+                  setStrMin(false);
+                }
+              }}>
+                Learn More
+              </button>
+              {/* {!strMin && <Subteam/>} */}
+        </div>
+        <div className="flex flex-col items-center w-3/4 my-72">
+          <h1 className="text-white text-3xl font-light">Plumbing</h1>
+          <h1 className="text-white text-xl font-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+           ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+           <Link
+              href="/phoenix"
+              className=" my-5 w-36 h-14 outline outline-offset-2 outline-1 text-white uppercase"
+            >
+              <button className=" my-5 w-36 h-14 outline outline-offset-2 outline-1 text-white uppercase">
+                Learn More
+              </button>
+            </Link>
+        </div>
+        <div className="flex flex-col items-center w-3/4 my-72">
+          <h1 className="text-white text-3xl font-light">Propulsion</h1>
+          <h1 className="text-white text-xl font-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+           ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h1>
+           <Link
+              href="/phoenix"
+              className=" my-5 w-36 h-14 outline outline-offset-2 outline-1 text-white uppercase"
+            >
+              <button className=" my-5 w-36 h-14 outline outline-offset-2 outline-1 text-white uppercase">
+                Learn More
+              </button>
+            </Link>
+        </div>
+        </div>
+        <div className=" flex justify-center">
+          <img className="w-auto" src="/untitled 2.png"></img>
+        </div>
+        
+        
       </div>
     </div>
   );
