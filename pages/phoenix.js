@@ -113,7 +113,7 @@ export default function phoenix() {
         </div>
         </div>
         <div className=" flex justify-center">
-          <img className="w-auto" src="/untitled 2.png"></img>
+          <img className="w-auto" src="/untitled2.png"></img>
         </div>
         
         
