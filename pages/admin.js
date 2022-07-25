@@ -23,9 +23,8 @@ export default function Admin() {
         </h1>
         <div className="z-10 w-4/5 p-3 mb-5">
           <h1 className="text-white text-xl font-extralight text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque tincidunt diam eros, vitae lobortis velit dapibus non.
-            Integer in leo ultricies, maximus magna laoreet, sodales felis.
+            Currently a work in progress. Need to include project cheif
+            engineers on this page
           </h1>
         </div>
       </div>

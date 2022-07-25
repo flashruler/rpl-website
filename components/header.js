@@ -8,6 +8,11 @@ export default function Header() {
           className=" ml-14 mr-8 w-36 h-auto cursor-pointer"
         ></img>
       </Link>
+      <Link href="/about">
+        <h1 className="mx-3 font-medium text-sm text-white cursor-pointer">
+          ABOUT RPL
+        </h1>
+      </Link>
       <Link href="/phoenix">
         <h1 className="mx-3 font-medium text-sm text-white cursor-pointer">
           PHOENIX
@@ -17,7 +22,6 @@ export default function Header() {
       <h1 className="mx-3 font-medium text-sm text-white">
         NEW MEMBER PROJECT
       </h1>
-      <h1 className="mx-3 font-medium text-sm text-white">TEAMS</h1>
       <h1 className="mx-3 font-medium text-sm text-white">PAST PROJECTS</h1>
       <h1 className="mx-3 font-medium text-sm text-white">ALUMNI</h1>
       <h1 className="mx-3 font-medium text-sm text-white">SPONSORS</h1>
