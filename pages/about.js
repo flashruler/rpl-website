@@ -26,7 +26,7 @@ export default function phoenix() {
         <div className="z-10 w-4/5 p-3 mb-5">
           <h1 className="text-white text-xl font-extralight text-center">
             The Rocket Propulsion Laboratory was founded in the Spring of 2017
-            by Cameron Flannery, Michael Phalen, and Alex Lim. RPL's goal is to
+            by Cameron Flannery, Michael Phalen, and Alex Lim. RPLs goal is to
             provide student-led research opportunities for students passionate
             about space exploration. We strive to provide challenging and
             exciting projects for students to develop their technical knowledge,
@@ -44,7 +44,7 @@ export default function phoenix() {
           </div>
           <div className="p-8">
             <h1 className="text-3xl font-bold text-center uppercase my-5">
-              The Core of RPL's Mission is threefold:
+              The Core of RPLs Mission is threefold:
             </h1>
             <ul className="list-disc p-10">
               <li className="text-xl my-5 font-extralight">
