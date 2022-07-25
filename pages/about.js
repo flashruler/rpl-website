@@ -34,9 +34,9 @@ export default function phoenix() {
           </h1>
         </div>
       </div>
-      <h1 className="my-10 text-black uppercase text-4xl font-bold text-center">
+      {/* <h1 className="my-10 text-black uppercase text-4xl font-bold text-center">
         Previous events
-      </h1>
+      </h1> */}
       <div>
         <div className="w-screen h-2/5 min-h-1/4 grid grid-cols-2 bg-cover bg-white p-3">
           <div className="w-full h-auto items-center flex flex-col justify-center">
