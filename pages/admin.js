@@ -23,8 +23,12 @@ export default function Admin() {
         </h1>
         <div className="z-10 w-4/5 p-3 mb-5">
           <h1 className="text-white text-xl font-extralight text-center">
-            Currently a work in progress. Need to include project cheif
-            engineers on this page
+            Learn about our leadership team and our commitment to RPL&apos;s
+            mission. Each of us recognizes that fundamentally we are students
+            first. We promise prospective members and our partners that
+            RPL&apos;s leadership team is steadfast in its desire to balance
+            educational priorities with our drive to tackle complex engineering
+            challenges.
           </h1>
         </div>
       </div>
@@ -44,16 +48,25 @@ export default function Admin() {
                   President
                 </h1>
                 <h1 className="text-xl font-extralight  text-center ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque quis imperdiet nunc. Sed in pretium elit, at finibus
-                  dolor. Suspendisse semper turpis vitae dui scelerisque
-                  sodales.
+                  Bora joined RPL back in 2019, starting off in the New Member
+                  Project. After a successful launch with his team he
+                  transitioned onto the Phoenix structures team where he was
+                  closely involved with the design and development of the
+                  internal support structure. He joined the admin team in 2021
+                  as the vice president finance where he managed fund
+                  distributions for project development as RPL&apos;s
+                  transitioned back to on site activities. As President, he is
+                  excited to realize the completion of RPL&apos;s multi-year
+                  Phoenix project and foster greater connections between RPL and
+                  the broader community of students, alumni, and industry
+                  partners.
                 </h1>
-                <div className="flex flex-row my-8 w-full items-center">
-                  <img src="LI-In-Bug.png" className="w-8 h-full" />
-                  <h1 className="text-sm font-extralight  text-center ">
-                    Linkedin.com/whatever-your-url-is
-                  </h1>
+                <div className="flex flex-row my-8 w-full items-center cursor-pointer">
+                  <a href="https://www.linkedin.com/in/bora-gursel/">
+                    <span>
+                      <img src="LI-In-Bug.png" className="w-8 h-full" />
+                    </span>
+                  </a>
                 </div>
               </div>
             </Fade>
@@ -71,16 +84,21 @@ export default function Admin() {
                   VP Safety
                 </h1>
                 <h1 className="text-xl font-extralight  text-center ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque quis imperdiet nunc. Sed in pretium elit, at finibus
-                  dolor. Suspendisse semper turpis vitae dui scelerisque
-                  sodales.
+                  Blake joined RPL&apos;s new member project during his first
+                  year, successfully completing the project and then
+                  transitioning to the Phoenix recovery subteam. He admires
+                  RPL&apos;s dedication to making rocketry accessible for all
+                  and cares about making sure everybody can be safe while having
+                  fun pursuing their passion. In that respect, RPL is thankful
+                  to have Blake as our Vice President Safety as we look towards
+                  a safe and successful launch this academic year.
                 </h1>
-                <div className="flex flex-row my-8 w-full items-center">
-                  <img src="LI-In-Bug.png" className="w-8 h-full" />
-                  <h1 className="text-sm font-extralight  text-center ">
-                    Linkedin.com/whatever-your-url-is
-                  </h1>
+                <div className="flex flex-row my-8 w-full items-center cursor-pointer">
+                  <a href="https://www.linkedin.com/in/blake-c-andersen/">
+                    <span>
+                      <img src="LI-In-Bug.png" className="w-8 h-full" />
+                    </span>
+                  </a>
                 </div>
               </div>
             </Fade>
@@ -98,16 +116,18 @@ export default function Admin() {
                   VP External
                 </h1>
                 <h1 className="text-xl font-extralight  text-center ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque quis imperdiet nunc. Sed in pretium elit, at finibus
-                  dolor. Suspendisse semper turpis vitae dui scelerisque
-                  sodales.
+                  Emily first joined RPL in her search for a place to build,
+                  design, and fly rockets and has been with us for two years
+                  now. First as a member of our propulsion team and now as our
+                  incumbent propulsion lead, Emily is no stranger to tackling
+                  the most complex challenges inherent to rocketry. Also serving
+                  in a dual role this year as our propulsion lead and Vice
+                  President External, Emily is excited to be leading our amazing
+                  community of engineers in preparation for the Phoenix launch.
                 </h1>
                 <div className="flex flex-row my-8 w-full items-center">
                   <img src="LI-In-Bug.png" className="w-8 h-full" />
-                  <h1 className="text-sm font-extralight  text-center ">
-                    Linkedin.com/whatever-your-url-is
-                  </h1>
+                  <h1 className="text-sm font-extralight  text-center "></h1>
                 </div>
               </div>
             </Fade>
@@ -125,16 +145,21 @@ export default function Admin() {
                   VP Internal
                 </h1>
                 <h1 className="text-xl font-extralight  text-center ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque quis imperdiet nunc. Sed in pretium elit, at finibus
-                  dolor. Suspendisse semper turpis vitae dui scelerisque
-                  sodales.
+                  Kylan has been with RPL for three years and he considers the
+                  time he&apos;s spent with the team to be an integral part of
+                  his educational and professional development. He has been
+                  involved in structural design and development of critical
+                  systems and will be serving RPL in a dual role as our Phoenix
+                  structures co-lead and vice president internal. Kylan is
+                  looking forward to seeing the efforts of his team come to
+                  fruition during the upcoming launch.
                 </h1>
-                <div className="flex flex-row my-8 w-full items-center">
-                  <img src="LI-In-Bug.png" className="w-8 h-full" />
-                  <h1 className="text-sm font-extralight  text-center ">
-                    Linkedin.com/whatever-your-url-is
-                  </h1>
+                <div className="flex flex-row my-8 w-full items-center cursor-pointer">
+                  <a href="https://www.linkedin.com/in/kylanzhao/">
+                    <span>
+                      <img src="LI-In-Bug.png" className="w-8 h-full" />
+                    </span>
+                  </a>
                 </div>
               </div>
             </Fade>
@@ -152,16 +177,20 @@ export default function Admin() {
                   VP Finance
                 </h1>
                 <h1 className="text-xl font-extralight  text-center ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque quis imperdiet nunc. Sed in pretium elit, at finibus
-                  dolor. Suspendisse semper turpis vitae dui scelerisque
-                  sodales.
+                  Adi joined RPL&apos;s Phoenix structures his freshman year,
+                  driven by his passion for rocketry and space exploration. He
+                  greatly values RPL&apos;s emphasis on applying and building on
+                  conceptual materials to real life applications. As RPL enters
+                  the fabrication and assembly stage of the Phoenix rocket, we
+                  are lucky to have Adi as our Vice President Finance to oversee
+                  putting the proverbial shoves in the ground.
                 </h1>
-                <div className="flex flex-row my-8 w-full items-center">
-                  <img src="LI-In-Bug.png" className="w-8 h-full" />
-                  <h1 className="text-sm font-extralight  text-center ">
-                    Linkedin.com/whatever-your-url-is
-                  </h1>
+                <div className="flex flex-row my-8 w-full items-center cursor-pointer">
+                  <a href="https://www.linkedin.com/in/adi-shah-/">
+                    <span>
+                      <img src="LI-In-Bug.png" className="w-8 h-full" />
+                    </span>
+                  </a>
                 </div>
               </div>
             </Fade>
@@ -176,19 +205,23 @@ export default function Admin() {
                   Jay Buensuceso
                 </h1>
                 <h1 className="text-2xl font-light text-center uppercase my-5">
-                  Webmaster
+                  Website Development Lead
                 </h1>
                 <h1 className="text-xl font-extralight  text-center ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque quis imperdiet nunc. Sed in pretium elit, at finibus
-                  dolor. Suspendisse semper turpis vitae dui scelerisque
-                  sodales.
+                  Jay started with RPL&apos;s Phoenix Structures subteam to get
+                  involved with a hands-on team based project within collegiate
+                  rocketry. Since then he&apos;s been involved in many things he
+                  never expected to learn such as composite manufacturing. As
+                  RPL moves towards the launch window for Phoenix, we&apos;re
+                  grateful to have Jay as our Website Development Lead to
+                  document this amazing journey for our friends and partners.
                 </h1>
-                <div className="flex flex-row my-8 w-full items-center">
-                  <img src="LI-In-Bug.png" className="w-8 h-full" />
-                  <h1 className="text-sm font-extralight  text-center ">
-                    Linkedin.com/whatever-your-url-is
-                  </h1>
+                <div className="flex flex-row my-8 w-full items-center cursor-pointer">
+                  <a href="https://www.linkedin.com/in/jaybuens/">
+                    <span>
+                      <img src="LI-In-Bug.png" className="w-8 h-full" />
+                    </span>
+                  </a>
                 </div>
               </div>
             </Fade>
