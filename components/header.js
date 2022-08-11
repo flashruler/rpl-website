@@ -18,10 +18,12 @@ export default function Header() {
           PHOENIX
         </h1>
       </Link>
+      <Link href="/nmp">
+        <h1 className="mx-3 font-medium text-sm text-white cursor-pointer">
+          NEW MEMBER PROJECT
+        </h1>
+      </Link>
 
-      <h1 className="mx-3 font-medium text-sm text-white">
-        NEW MEMBER PROJECT
-      </h1>
       <h1 className="mx-3 font-medium text-sm text-white">PAST PROJECTS</h1>
       <h1 className="mx-3 font-medium text-sm text-white">ALUMNI</h1>
       <h1 className="mx-3 font-medium text-sm text-white">SPONSORS</h1>
